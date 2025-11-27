@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Dots for coco</title>
+
+    <link rel="icon" href="/favicon.ico" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1" && location.hostname.substr(0, 7) !== '192.168') {
+        var gc = document.createElement('script');
+        gc.setAttribute('data-goatcounter', 'https://dots.goatcounter.com/count');
+        gc.async = true;
+        gc.src = '//gc.zgo.at/count.js';
+        document.body.appendChild(gc);
+      }
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
